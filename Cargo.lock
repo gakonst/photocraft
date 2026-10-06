@@ -3776,6 +3776,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "photocraft-worker"
+version = "0.2.0"
+dependencies = [
+ "photocraft-codecs",
+ "photocraft-engine",
+ "photocraft-io",
+ "serde_json",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "pico-args"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
